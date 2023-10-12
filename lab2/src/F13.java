@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class F13 {
     public static void main(String[] args) {
-        int tab[] = {4,-5,-9,20};
+        int[] tab = {4,-5,-9,20};
         System.out.println(Arrays.toString(tab));
         System.out.println("Min="+minimumValue(tab));
     }

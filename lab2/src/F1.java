@@ -7,7 +7,7 @@ public class F1 {
         {
             System.out.println(tab1[i]);
         }
-        int tab2[] = new int[10];
+        int[] tab2 = new int[10];
         Random random = new Random();
         random.setSeed(123);
         for(int i=0;i<tab2.length;i++)
